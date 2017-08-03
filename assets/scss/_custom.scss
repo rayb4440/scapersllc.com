@@ -1,0 +1,231 @@
+// ********** ONLY USE THIS STYLESHEET (complied) WHEN UPLOADING TO VS-CMS ****************
+//***...THE ONLY STYLING NEEDED IN THE TEMPLATE CSS FILE WOULD BE ANY ADDITONAL STYLING CREATED BY THE _custom.scss file ***
+// *** IMPORTANT ***=====================SEE READ ME FILE======================
+//		*******************************************************************************************************************************
+//				the _custom.scss file is compliled via SASS into the all.css file. So,
+//				ONLY COPY THE VERY END OF THE all.css file starting somewhere around line 1700
+//				Look for "Custom Styles Start Here" and copy everything after and PASTE into the Template Stylesheet Block
+//		*******************************************************************************************************************************
+
+/*   */
+/*   */
+/* ...................................................Custom Styles start here
+================================================== */
+
+.main-flex-slider {
+	display: none;
+	}
+
+.footer-text-align {
+	text-align: center;
+}
+
+
+/*==========  Media Queries  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.footer-text-align {
+		text-align: left;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.main-flex-slider {
+		display: block;
+		background-color: darken( #26956A, 5%);
+		figcaption h3 {
+		color: #ffffff;
+		}
+	}
+}
+
+body {
+    background: #fdfdfd;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+.navbar-default {
+    background-color: #7bb77d;
+    border-bottom-color: #696969;
+    border-bottom-width: 3px;
+    }
+
+.navbar-brand {
+    float: left;
+    height: 125px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 7px;
+}
+
+.top-number{
+    float: right!important;
+    margin-right: -15px;
+    padding-top: 10px;
+   
+}
+
+.top-number h1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #000;
+}
+
+.carousel li {
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 200px;
+    height: 95px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding:5px;
+}
+
+.carousel-indicators li img {
+    opacity: 0.3;
+}
+
+.carousel-indicators {
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-indicators .active {
+    width: 200px;
+    height: 95px;
+    background-color: #f5f5f5;
+    display: inline-block;
+    text-indent: -999px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding:0px;
+}
+
+.carousel-indicators .active img {
+    opacity: 1.0;
+}
+
+
+.slide-text {
+    float: left;
+    margin-left: 100px;
+    color: #000;
+}
+
+.slide-text h3 {
+    font-weight: 700;
+    color: #000;
+}
+
+
+.dumpster-text li {
+    font-size: 18px;
+    list-style-type: initial;
+}
+
+.glyphicon {
+    color: #000;
+    }
+
+.cta-bg {
+    padding: 50px 0;
+    background-color: #7bb77d;
+}
+
+
+#content-region-6 {
+    background: url("http://templates.vintagesoftware.com/15726.jpg");
+    padding: 50px 0;
+
+}
+
+h5 {
+    font-size: 35px;
+    color: #fff;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #c3c0c0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    font-weight: 600;
+}
+
+#content-region-4 {
+  background-image: url("../../assets/img/background8.jpg");
+  text-align: center; }
+
+#content-region-4 img {
+  opacity: 0.7; 
+  width: 130px;
+}
+
+#content-region-4 img:hover {
+  opacity: 1.0;
+  width: 145px;
+}
+
+
